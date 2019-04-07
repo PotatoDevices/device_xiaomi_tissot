@@ -103,3 +103,7 @@ $(call inherit-product, build/target/product/verity.mk)
 # Pixel 2 Camera
 PRODUCT_PACKAGES += \
     GCam
+
+# Pixel 3 Camera
+PRODUCT_PACKAGES += \
+    GCamN7P
