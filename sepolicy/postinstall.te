@@ -1,0 +1,1 @@
+allow postinstall otapreopt_chroot:process noatsecure;

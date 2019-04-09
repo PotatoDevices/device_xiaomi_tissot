@@ -1,0 +1,6 @@
+allow backuptool rootfs:dir { open read };
+allow backuptool rootfs:file getattr;
+allow backuptool shell_exec:file { entrypoint execute read };
+allow backuptool toolbox_exec:file { execute execute_no_trans getattr open read };
+allow backuptool update_engine:fd use;
+allow backuptool update_engine_log_data_file:file append;

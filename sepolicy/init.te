@@ -1,0 +1,2 @@
+allow init cgroup:file create;
+allow init hal_vr_default:process noatsecure;

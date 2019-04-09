@@ -1,0 +1,3 @@
+allow update_engine media_rw_data_file:file { read open };
+allow update_engine runtime_event_log_tags_file:file { read write open };
+allow update_engine backuptool:process noatsecure;
