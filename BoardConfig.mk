@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit from common msm8953-common
--include device/xiaomi/msm8953-common/BoardConfigCommon.mk
+-include device/xiaomi/tissot-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/tissot
 

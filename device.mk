@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Inherit from msm8953-common
-$(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
+$(call inherit-product, device/xiaomi/tissot-common/msm8953.mk)
 
 # A/B
 AB_OTA_UPDATER := true
@@ -99,11 +99,3 @@ PRODUCT_PACKAGES_DEBUG += \
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
-
-# Pixel 2 Camera
-PRODUCT_PACKAGES += \
-    GCam
-
-# Pixel 3 Camera
-PRODUCT_PACKAGES += \
-    GCamN7P

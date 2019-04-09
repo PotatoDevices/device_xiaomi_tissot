@@ -1,0 +1,19 @@
+[
+  {
+    "repository": "PotatoDevices/vendor_xiaomi_tissot",
+    "target_path": "vendor/xiaomi/tissot"
+  },
+  {
+    "repository": "PotatoDevices/vendor_xiaomi_tissot-common",
+    "target_path": "vendor/xiaomi/tissot-common"
+  },
+  {
+    "repository": "evolution-x-devices/kernel_xiaomi_msm8953",
+    "target_path": "kernel/xiaomi/tissot",
+    "branch": "pie"
+  },
+  {
+    "repository": "PotatoDevices/device_xiaomi_tissot-common",
+    "target_path": "device/xiaomi/tissot-common"
+  }
+]
