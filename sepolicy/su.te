@@ -1,0 +1,14 @@
+allow su device_logging_prop:file { getattr open read };
+allow su devpts:chr_file { ioctl open };
+allow su ffs_prop:property_service set;
+allow su file_contexts_file:file read;
+allow su functionfs:file { ioctl open read write };
+allow su init:dir search;
+allow su init:file { open read };
+allow su kernel:dir search;
+allow su kernel:system syslog_read;
+allow su kmsg_device:chr_file { open read };
+allow su self:capability { dac_override setfcap };
+allow su selinuxfs:file { open read };
+allow su shell_prop:property_service set;
+

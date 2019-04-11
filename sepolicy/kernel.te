@@ -1,0 +1,2 @@
+allow kernel self:security setenforce;
+allow kernel tmpfs:dir search;
