@@ -8,7 +8,7 @@
     "target_path": "vendor/xiaomi/tissot-common"
   },
   {
-    "repository": "evolution-x-devices/kernel_xiaomi_msm8953",
+    "repository": "LineageOS/android_kernel_xiaomi_msm8953",
     "target_path": "kernel/xiaomi/tissot",
     "branch": "pie"
   },
