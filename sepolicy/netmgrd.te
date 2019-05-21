@@ -1,2 +1,2 @@
 allow netmgrd netutils_wrapper:process noatsecure;
-
+set_prop(netmgrd, vendor_xlat_prop)

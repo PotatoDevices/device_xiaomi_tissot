@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Inherit from msm8953-common
-$(call inherit-product, device/xiaomi/tissot-common/msm8953.mk)
+$(call inherit-product, device/xiaomi/tissot/msm8953.mk)
 
 # A/B
 AB_OTA_UPDATER := true

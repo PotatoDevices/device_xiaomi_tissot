@@ -1,2 +1,2 @@
 allow vold sdcardd:process noatsecure;
-
+allow vold proc_touchpanel:dir r_dir_perms;

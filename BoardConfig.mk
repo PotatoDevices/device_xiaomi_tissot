@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit from common msm8953-common
--include device/xiaomi/tissot-common/BoardConfigCommon.mk
+-include device/xiaomi/tissot/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/tissot
 
@@ -37,9 +37,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2019-03-05
-
-# Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
